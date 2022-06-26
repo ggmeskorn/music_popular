@@ -10,14 +10,16 @@ class SplashView extends GetView<SplashController> {
         child: Stack(
           alignment: Alignment.center,
           children: [
-            // Image.asset(AssetsService.image('img_blackground.png')),
             Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                // Image.asset(AssetsService.image('img_logo_crm_black.png')),
+                Icon(
+                  Icons.music_note,
+                  size: sizeImageCustomer,
+                ),
                 verticalSpaceM,
                 "${LocaleKeys.splash_title.tr}"
-                    .h5
+                    .h3
                     .regular
                     .color(AppColors.black)
               ],

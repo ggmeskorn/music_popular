@@ -13,15 +13,21 @@ class LocaleKeys {
   LocaleKeys._();
   static const splash_title = 'splash_title';
   static const main_title_song = 'main_title_song';
+  static const main_album = 'main_album';
+  static const main_title = 'main_title';
 }
 
 class Locales {
   static const th_TH = {
-    'splash_title': 'ไตรเติล',
-    'main_title_song': 'ไตรเติล เพลง',
+    'splash_title': 'ชิล ชิล มิวสิค',
+    'main_title_song': 'เพลง',
+    'main_album': 'อัลบั้ม',
+    'main_title': 'เพลงยอดนิยม',
   };
   static const en_Us = {
-    'splash_title': 'title',
-    'main_title_song': 'title_song',
+    'splash_title': 'Chill Chill Music',
+    'main_title_song': 'Song',
+    'main_album': 'Album',
+    'main_title': 'Popular Music',
   };
 }

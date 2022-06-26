@@ -1,6 +1,5 @@
 // ignore_for_file: unnecessary_string_interpolations, prefer_const_constructors
 
-
 import 'package:music_popular/app/core/theme/theme_ui.dart';
 import 'package:music_popular/app/modules/main/main_controller.dart';
 
@@ -17,8 +16,8 @@ class Playlist extends GetResponsiveView<MainController> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               verticalSpaceL,
-              "Popular Music".h6.bold,
-              SizedBox(height: spaceL / 2),
+              LocaleKeys.main_title.tr.h6.bold,
+              verticalSpaceM,
               Expanded(
                 child: SingleChildScrollView(
                   child: Column(
