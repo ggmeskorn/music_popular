@@ -1,0 +1,61 @@
+name: music_popular
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.16.2 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  flutter_vector_icons: ^1.0.0
+  textless: ^6.6.6 
+  flutter_easyloading: ^3.0.0
+  flutter_keyboard_visibility:
+  shimmer_animation: ^2.1.0+1
+  cached_network_image: ^3.1.0+1
+  image_picker: ^0.8.4+4
+  niku: ^2.2.4
+
+dev_dependencies: 
+  flutter_lints: ^1.0.0
+  lints: 
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
+assets:
+    - assets/fonts/
+    - assets/image/
+    - assets/music/
+
+fonts:
+    - family: DBHelvethaicaX
+      fonts:
+        - asset: assets/fonts/DBHelvethaicaX100Thin.ttf
+          weight: 100
+
+        - asset: assets/fonts/DBHelvethaicaX200ExtraLight.ttf
+          weight: 200
+
+        - asset: assets/fonts/DBHelvethaicaX300Light.ttf
+          weight: 300
+
+        - asset: assets/fonts/DBHelvethaicaX400Regular.ttf
+          weight: 400
+
+        - asset: assets/fonts/DBHelvethaicaX500Medium.ttf
+          weight: 500
+
+        - asset: assets/fonts/DBHelvethaicaX700Bold.ttf
+          weight: 700
+
+        - asset: assets/fonts/DBHelvethaicaX900Black.ttf
+          weight: 900
+get_cli:
+  sub_folder : false
