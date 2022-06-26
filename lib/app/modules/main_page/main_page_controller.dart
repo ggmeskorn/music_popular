@@ -45,7 +45,7 @@ class MainPageController extends GetxController {
       album = DashboardController.listPopularMusic[index1].title;
       log("${imageMusic}");
     } else {
-      imageMusic = "assets/images/artworks.jpeg";
+      imageMusic = "assets/images/img_close_to_shiva.jpeg";
       album = "Michael Seyer";
     }
   }

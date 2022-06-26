@@ -43,6 +43,7 @@ class Playlist extends GetResponsiveView<MainPageController> {
                     var w = GestureDetector(
                       onTap: () {
                         controller.setInitialPlaylist(index1);
+                        controller.play();
                       },
                       child: Card(
                         elevation: 3.0,
