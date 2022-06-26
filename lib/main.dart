@@ -38,13 +38,10 @@ void main() {
       transitionDuration: Duration(milliseconds: 700),
       title: "Application",
       //Locale
-      // locale: LanguageService.th,
-      // fallbackLocale: LanguageService.th,
-      // translationsKeys: AppTranslation.translations,
-      // localizationsDelegates: [
-      //   GlobalMaterialLocalizations.delegate,
-      // ],
-      // builder: EasyLoading.init(),
+      locale: LanguageService.th,
+      fallbackLocale: LanguageService.th,
+      translationsKeys: AppTranslation.translations,
+      builder: EasyLoading.init(),
       debugShowCheckedModeBanner: false,
     ),
   );
