@@ -6,3 +6,5 @@ export 'package:music_popular/app/core/values/text_style.dart';
 export 'package:music_popular/app/data/services/language_service.dart';
 export 'package:music_popular/generated/locales.g.dart';
 export 'package:flutter_easyloading/flutter_easyloading.dart';
+export 'package:music_popular/app/data/services/assets_service.dart';
+export 'package:textless/textless.dart';

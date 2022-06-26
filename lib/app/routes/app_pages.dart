@@ -1,5 +1,7 @@
 import 'package:get/get.dart';
 
+import '../modules/main/main_binding.dart';
+import '../modules/main/main_view.dart';
 import '../modules/splash/splash_binding.dart';
 import '../modules/splash/splash_view.dart';
 
@@ -15,6 +17,11 @@ class AppPages {
       name: _Paths.SPLASH,
       page: () => SplashView(),
       binding: SplashBinding(),
+    ),
+    GetPage(
+      name: _Paths.MAIN,
+      page: () => MainView(),
+      binding: MainBinding(),
     ),
   ];
 }
