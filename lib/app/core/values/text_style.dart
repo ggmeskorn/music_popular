@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:music_popular/app/core/utils/colors.dart';
-import 'package:niku/namespace.dart' as n;
 
 const fontDBHelvethaicaX = "DBHelvethaicaX";
 
@@ -38,17 +37,3 @@ const overlineStyle = TextStyle(
     height: 1,
     letterSpacing: 0.1);
 
-class AppStyle {
-  static final titleCutomerInfo = n.Text("")
-    ..fontSize = 16
-    ..w400
-    ..color = AppColors.gray;
-
-  static final detailCutomerInfo = n.Text("")
-    ..fontSize = overlineStyle.fontSize!
-    ..bold;
-
-  static final buttonSizeS = n.Text("")
-    ..fontSize = 16
-    ..bold;
-}
