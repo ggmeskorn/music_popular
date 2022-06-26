@@ -6,8 +6,7 @@ import 'package:music_popular/app/routes/app_pages.dart';
 void main() {
   runApp(
     GetMaterialApp(
-      theme: 
-      ThemeData(
+      theme: ThemeData(
         fontFamily: fontDBHelvethaicaX,
         primaryColor: AppColors.yellow,
         primarySwatch: AppColors.orangeyYellow,
