@@ -6,5 +6,9 @@
         "title_song": "Song",
         "album": "Album",
         "title": "Popular Music"
+    },
+    "language": {
+        "th": "Thai",
+        "en": "English"
     }
 }

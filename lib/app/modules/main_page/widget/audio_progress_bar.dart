@@ -1,8 +1,8 @@
 import 'package:audio_video_progress_bar/audio_video_progress_bar.dart';
 import 'package:music_popular/app/core/theme/theme_ui.dart';
-import 'package:music_popular/app/modules/main/main_controller.dart';
+import 'package:music_popular/app/modules/main_page/main_page_controller.dart';
 
-class AudioProgressBar extends GetResponsiveView<MainController> {
+class AudioProgressBar extends GetResponsiveView<MainPageController> {
   @override
   Widget build(BuildContext context) {
     return ValueListenableBuilder<ProgressBarState>(

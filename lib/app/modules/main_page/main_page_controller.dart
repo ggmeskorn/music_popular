@@ -3,7 +3,7 @@ import 'dart:developer';
 import 'package:music_popular/app/core/theme/theme_ui.dart';
 import 'package:just_audio/just_audio.dart';
 
-class MainController extends GetxController {
+class MainPageController extends GetxController {
   final currentSongTitleNotifier = ValueNotifier<String>('');
   final playlistNotifierImage = ValueNotifier<String>("");
   final playlistNotifier = ValueNotifier<List<DashboardMusic>>([]);

@@ -1,11 +1,12 @@
 // ignore_for_file: unnecessary_string_interpolations, prefer_const_constructors
 
 import 'package:music_popular/app/core/theme/theme_ui.dart';
-import 'package:music_popular/app/modules/main/main_controller.dart';
+import 'package:music_popular/app/modules/main_page/main_page_controller.dart';
 
 import 'shadow_image.dart';
 
-class Playlist extends GetResponsiveView<MainController> {
+class Playlist extends GetResponsiveView<MainPageController> {
+  final _isTh = LanguageService.isTh;
   @override
   Widget build(BuildContext context) {
     return Expanded(
@@ -16,7 +17,20 @@ class Playlist extends GetResponsiveView<MainController> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               verticalSpaceL,
-              LocaleKeys.main_title.tr.h6.bold,
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  LocaleKeys.main_title.tr.h6.bold,
+                  GestureDetector(
+                      onTap: () {
+                        LanguageService.swapLanguage();
+                      },
+                      child:
+                          "${LocaleKeys.language_th.tr} || ${LocaleKeys.language_en.tr}"
+                              .b1
+                              .regular),
+                ],
+              ),
               verticalSpaceM,
               Expanded(
                 child: SingleChildScrollView(

@@ -1,9 +1,9 @@
 // ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors
 
 import 'package:music_popular/app/core/theme/theme_ui.dart';
-import 'package:music_popular/app/modules/main/main_controller.dart';
+import 'package:music_popular/app/modules/main_page/main_page_controller.dart';
 
-class PreviousSongButton extends GetResponsiveView<MainController> {
+class PreviousSongButton extends GetResponsiveView<MainPageController> {
   @override
   Widget build(BuildContext context) {
     return ValueListenableBuilder<bool>(
