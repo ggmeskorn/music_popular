@@ -4,7 +4,6 @@ import 'package:music_popular/app/core/theme/theme_ui.dart';
 import 'package:music_popular/app/routes/app_pages.dart';
 
 void main() {
-  WidgetsFlutterBinding.ensureInitialized();
   runApp(
     GetMaterialApp(
       theme: ThemeData(

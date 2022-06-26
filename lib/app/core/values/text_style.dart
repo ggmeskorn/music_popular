@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:music_popular/app/core/utils/colors.dart';
 
 const fontDBHelvethaicaX = "DBHelvethaicaX";
 
