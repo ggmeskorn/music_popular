@@ -1,11 +1,14 @@
-import 'package:get/get.dart';
+// ignore_for_file: prefer_const_constructors
 
-class SplashController extends GetxController {
+import 'package:music_popular/app/modules/global_widgets/app_controller.dart';
+import 'package:music_popular/app/modules/splash/splash_router.dart';
+
+class SplashController extends AppController<SplashRouter> {
   //TODO: Implement SplashController
 
-  final count = 0.obs;
   @override
   void onInit() {
+    haskMain();
     super.onInit();
   }
 
@@ -16,5 +19,8 @@ class SplashController extends GetxController {
 
   @override
   void onClose() {}
-  void increment() => count.value++;
+  void haskMain() async {
+    await Future.delayed(Duration(seconds: 2));
+    router.toMain();
+  }
 }

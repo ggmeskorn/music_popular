@@ -1,8 +1,14 @@
 {
     "splash": {
-        "title": "title"
+        "title": "Chill Chill Music"
     },
     "main": {
-        "title_song": "title_song"
+        "title_song": "Song",
+        "album": "Album",
+        "title": "Popular Music"
+    },
+    "language": {
+        "th": "Thai",
+        "en": "English"
     }
 }
